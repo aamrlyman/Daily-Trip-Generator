@@ -10,28 +10,17 @@ def select_mode_of_transportation(list):
     transportation = random.choice(list)
     return transportation
 
-
 def select_restaurant(list):
     restaurant = random.choice(list)
     return restaurant
-
-
-
 
 def select_destination(list):
     destination = random.choice(list)
     return destination
 
-
-
 def select_entertainment(list):
     entertainment = random.choice(list)
     return entertainment
-
-
-        
-        
-        
 
 def random_trip_generator():
     mode_of_transportation = select_mode_of_transportation(mode_of_transportations)
