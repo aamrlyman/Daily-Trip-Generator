@@ -22,7 +22,7 @@ def select_entertainment(list):
     entertainment = random.choice(list)
     return entertainment
 
-def random_trip_generator():
+def master_function():
     mode_of_transportation = select_mode_of_transportation(mode_of_transportations)
     restaurant = select_restaurant(restaurants)
     destination = select_destination(destinations)
@@ -56,4 +56,4 @@ def random_trip_generator():
         print(trip_plan())
 
 
-random_trip_generator()
+master_function()
