@@ -6,6 +6,7 @@ mode_of_transportations = ['walk', 'bike', 'Uber', 'drive', 'bus']
 entertainments = ['a movie', 'mini golfing', 'a hike', 'a walk through Pike Place Market']
 
 import random
+import weakref
 def select_mode_of_transportation(list):
     transportation = random.choice(list)
     return transportation
@@ -54,6 +55,5 @@ def master_function():
             print('invalid entry')
             print('')
         print(trip_plan())
-
 
 master_function()
