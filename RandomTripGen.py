@@ -32,6 +32,7 @@ def master_function():
         return f'Your itinerary is {mode_of_transportation} to {restaurant} in {destination} followed by {entertainment}.'
     print('')
     print(trip_plan())
+    #User Confirmation 
     is_user_happy = 'no'
     while is_user_happy == 'no':
         print('')
